@@ -1,0 +1,16 @@
+.places__place {    
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 80px;
+}
+
+.places__place:last-child {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    .places__place {
+        margin-bottom: 50px; 
+    }
+}

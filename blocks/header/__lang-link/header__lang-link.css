@@ -1,0 +1,15 @@
+.header__lang-link {
+    color: white;
+    font-size: 24px;
+    font-size: normal;
+    font-family: 'Inter';
+    width: 30px;
+    height: 28px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+    text-decoration: underline;
+}
