@@ -1,4 +1,5 @@
 .lead__content {
+    max-width: 984px;
     margin: auto 148px;
     font-family: 'Inter';
     font-style: normal;
