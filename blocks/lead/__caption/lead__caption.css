@@ -5,14 +5,12 @@
 
 @media screen and (max-width: 768px){
     .lead__caption {
-        margin: 0;
         margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 320px){
     .lead__caption {
-        margin: 0;
         margin-left: 16px;
     }
 }
