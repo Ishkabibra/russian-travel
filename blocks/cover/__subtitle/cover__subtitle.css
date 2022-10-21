@@ -6,7 +6,7 @@
     line-height: 22px;
     text-align: center;
     color: white;
-    width: 360px;
+    max-width: 360px;
     margin: auto;
     margin-top: 32px;
     position: relative;

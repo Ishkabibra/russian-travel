@@ -30,7 +30,6 @@
         margin: 92px 0;
     }
     .cover__content::before {
-        max-width: 1024px;
         min-height: 640px;
     }
 }
@@ -41,7 +40,6 @@
         margin: 90px 0 88px;
     }
     .cover__content::before {
-        max-width: 768px;
         min-height: 480px;
     }
 }
@@ -52,7 +50,6 @@
         margin: 66px 0 64px;
     }
     .cover__content::before {
-        max-width: 320px;
         min-height: 200px;
     }
 }

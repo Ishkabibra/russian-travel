@@ -1,7 +1,7 @@
 .places__place {    
     color: white;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(400px, 460px) minmax(400px, 1fr);
     gap: 48px 40px; 
     margin-bottom: 80px;
 }
@@ -12,13 +12,23 @@
 
 @media screen and (max-width: 1024px) {
     .places__place {
+        grid-template-columns: minmax(320px, 440px) minmax(350px, 1fr);
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places__place {
+        grid-template-columns: minmax(220px, 440px) minmax(300px, 1fr);
         gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places__place {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px 20px;
     }
 }
 
